@@ -1,11 +1,11 @@
 name: lemmatizer
 description: Lemmatizer for text in English. Inspired by Python's nltk.corpus.reader.wordnet.morphy
-version: 1.0.0
+version: 1.0.1
 #author: emrahdemirci <csemrahdemirci@gmail.com>
 homepage: https://github.com/emrahdemirci/lemmatizer
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.16.0 <3.0.0'
 
 dependencies:
   flutter:

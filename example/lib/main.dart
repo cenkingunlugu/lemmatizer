@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   'Lemmatized Word : $_text',
                 ),
               ),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: _lemmatize,
                 child: Text('Lemmatize'),
               )

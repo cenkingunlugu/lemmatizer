@@ -147,24 +147,20 @@ class Lemmatizer {
       case "n":
       case "noun":
         return POS.NOUN;
-        break;
       case "v":
       case "verb":
         return POS.VERB;
-        break;
       case "a":
       case "j":
       case "adjective":
       case "adj":
         return POS.ADJ;
-        break;
       case "r":
       case "adverb":
       case "adv":
         return POS.ABBR;
       default:
         return POS.UNKNOWN;
-        break;
     }
   }
 }
